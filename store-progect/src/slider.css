@@ -1,0 +1,259 @@
+.slider .wh {
+    height: 670px;
+    opacity: 0.7;
+}
+
+.filter {
+    font-size: 1.4em;
+    margin-left: 2.5em;
+    font-weight: 600;
+}
+
+.icon {
+    font-size: 1.3em;
+    color: darkgoldenrod;
+}
+
+Nav .about,
+Nav .contact,
+Nav .home,
+Nav .register,
+Nav .login {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(164, 165, 167);
+    margin-left: 1em;
+    margin-top: -1px;
+}
+
+Nav .about:hover,
+Nav .contact:hover,
+Nav .home:hover,
+Nav .register:hover,
+Nav .login:hover {
+    color: darkgoldenrod;
+}
+
+.head .brand {
+    font-weight: 600;
+    font-size: 1.4em;
+    font-family: 'Courgette', cursive;
+}
+
+.Brand-link {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.Brand-link:hover {
+    color: burlywood;
+}
+
+/* //////////////////  popup  /////////////////// */
+
+.popup {
+    position: fixed;
+    top: 3em;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+    padding: 20px;
+    background-color: rgba(230, 177, 70, 0.545);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.popup-h1 {
+    color: beige;
+    font-family: 'Courgette', cursive;
+}
+
+.popup-h3 {
+    color: white;
+    align-self: center;
+}
+
+.popup-btn {
+    align-self: center;
+}
+
+.popup-btn>button {
+    padding: 4px 30px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(215, 159, 100, 0.53);
+    font-family: 'Courgette', cursive;
+    border: 0px;
+}
+
+.popup-btn>button:hover {
+    background-color: rgba(243, 127, 12, 0.637);
+}
+
+/* ///////////// card buttons ////////////// */
+
+.btn_increase {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.span_counter {
+    margin-left: 1em;
+    font-size: x-large;
+}
+
+/* ======================== section ========================== */
+
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/images/9.jpg);
+    min-height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#log_in {
+    background: linear-gradient(rgb(13, 13, 13, 1), rgba(13, 13, 13, 0.7));
+    width: 350px;
+    height: 470px;
+    margin-top: -190px;
+    border-radius: 10px 35px;
+    z-index: 999;
+    box-shadow: 0 8px 30px 0px #525252;
+}
+
+#log_in h2 {
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input_form_signin {
+    display: block;
+    margin: 25px;
+    margin-top: 65px;
+    color: whitesmoke;
+}
+
+.input_form_signin #input-password,
+#input-text {
+    position: absolute;
+    background: linear-gradient(rgb(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5));
+    width: 260px;
+    height: 35px;
+    margin-top: -15px;
+    border: none;
+    border-bottom: 1px solid rgb(142, 142, 142);
+    background: transparent;
+    outline: none;
+    color: whitesmoke;
+}
+
+.input_form_signin p {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.input_form_signin span,
+#input-check {
+    margin-top: 14px;
+}
+
+.input_form_signin button {
+    position: relative;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    bottom: -60px;
+    left: 30%;
+    color: whitesmoke;
+    transition: 0.7s ease;
+}
+
+.input_form_signin button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* ======================== section ========================== */
+
+#register {
+    background: linear-gradient(rgb(13, 13, 13, 1), rgba(13, 13, 13, 0.7));
+    width: 350px;
+    height: 550px;
+    margin-top: -220px;
+    border-radius: 10px 35px;
+    z-index: 999;
+    box-shadow: 0 8px 30px 0px #525252;
+}
+
+#register h2 {
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input_form_register {
+    display: block;
+    margin: 25px;
+    margin-top: -30px;
+    color: whitesmoke;
+}
+
+.input_form_register #input-password,
+#input-text,
+#input_fname,
+#input_lname {
+    position: absolute;
+    background: linear-gradient(rgb(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5));
+    width: 260px;
+    height: 35px;
+    margin-top: -15px;
+    border: none;
+    border-bottom: 1px solid rgb(142, 142, 142);
+    background: transparent;
+    outline: none;
+    color: whitesmoke;
+}
+
+.input_form_register p {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.input_form_register span,
+#input-check {
+    margin-top: 13px;
+}
+
+.input_form_register button {
+    position: relative;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    bottom: -20px;
+    left: 30%;
+    color: whitesmoke;
+    transition: 0.7s ease;
+}
+
+.input_form_register button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
